@@ -101,6 +101,10 @@ body {
   padding-bottom: 120px;
 }
 
+.navigation-item .current {
+  color: #404bbf;
+}
+
 .current::after {
   position: absolute;
   bottom: -28px;
@@ -613,4 +617,14 @@ body {
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.modal-close-btn-icon {
+  fill: currentColor;
 }
